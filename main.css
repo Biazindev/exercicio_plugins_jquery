@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+
+h1 {
+    margin-left: 35%;
+    margin-bottom: 80px;
+    color: rgb(88, 134, 18);
+}
+
+h2 {
+    color: rgb(88, 134, 18);
+}
+
+label {
+    color: rgb(88, 134, 18);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 16px;
+}
+
+header {
+    background-color: #fff;
+    padding-top: 16px;
+}
+
+header > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    display: flex;
+}
+
+nav {
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container-flex {
+    display: flex;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    
+}
+
+.form-campo textarea {
+    resize: none; 
+    height: 120px;
+}
+
+form {
+    width: 600px;
+    margin-top: 8px;
+}
+
+form button {
+    width: 200px;
+}
+
+
